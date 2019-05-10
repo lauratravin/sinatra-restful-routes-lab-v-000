@@ -45,6 +45,7 @@ class ApplicationController < Sinatra::Base
       #  binding.pry
        @mod= Recipe.find(params[:id])
        @mod.update(params[:recipe])
+      binding.pry
        var = @mod.id
      redirect "/recipes/#{var}"  #esta forma se llama interpolation
   end
