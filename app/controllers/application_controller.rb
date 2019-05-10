@@ -48,7 +48,7 @@ class ApplicationController < Sinatra::Base
 
      redirect "/recipes/#{@mod.id}"  #esta forma se llama interpolation
   end
-  
+
 
     # end
 
